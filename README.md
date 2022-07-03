@@ -6,7 +6,7 @@ Welcome to my collection of educational materials created by me and recommended 
 
 ### Lean startup and design thinking
 
-* [From lean startup via design thinking to implementation - Part 1](https://medium.com/@paul_25993/from-lean-startup-via-design-thinking-to-implementation-70ee3b75e738)
+* [From lean startup via design thinking to implementation - Part I](https://medium.com/@paul_25993/from-lean-startup-via-design-thinking-to-implementation-70ee3b75e738)
 * [From lean startup via design thinking to implementation - Part II](https://medium.com/@paul_25993/from-lean-startup-via-design-thinking-to-implementation-e62b7bbd24e7)
 
 
