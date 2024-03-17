@@ -14,7 +14,7 @@ Keep those two philosophies and methodologies in mind as they will inform us on 
 
 The first step before we start creating user stories and organising them in a way to reflect our project roadmap is understanding the problem we are trying to solve - in this case, to build a product that people want to use. Typically, this starts with identifying the relationship between personas and our product. We apply the whiteboard architecture and derived a relationship in Figure 1.
 
-![first cut architecture](../assets/img/bitcoin-project.png)</br>
+![first cut architecture](../assets/img/user-story/bitcoin-project.png)</br>
 **Figure 1: First iteration of our architecture.
 
 > NOTE:
@@ -124,7 +124,7 @@ It is beyond the scope of current discussion to examine the differences. Please 
 
 The Kanban based approach is summarised in Figure 2.
 
-![kanban](../assets/img/kanban-backlog.png)</br>
+![kanban](../assets/img/user-story/kanban-backlog.png)</br>
 **Figure 2: A kanban based agile methodology**
 
 The kanban based approach startes when a user story is refined from `icebox` and enters the `product backlog`. Planners and developers pick the top level item and start work. `User stories` are typically refined to the smallest unit of complexity.
@@ -133,7 +133,7 @@ The Kanban approach follows more closely to the lean startup philosophy and it a
 
 An alternative to the Kanban approach is the Scrum approach and is summarised in Figure 3.
 
-![scrum](../assets/img/sprint-backlog.png)<br>
+![scrum](../assets/img/user-story/sprint-backlog.png)<br>
 **Figure 3: A scrum based agile methodology**
 
 A scrum based approach may not have an `icebox` but there is a notion of one. A typical approach is to place items at the bottom of the `product backlog`. In Figure 3, we left the notion of an `icebox` there as it is a useful mental model.
