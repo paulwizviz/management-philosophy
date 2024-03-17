@@ -15,7 +15,7 @@ Keep those two philosophies and methodologies in mind as they will inform us on 
 The first step before we start creating user stories and organising them in a way to reflect our project roadmap is understanding the problem we are trying to solve - in this case, to build a product that people want to use. Typically, this starts with identifying the relationship between personas and our product. We apply the whiteboard architecture and derived a relationship in Figure 1.
 
 ![first cut architecture](../assets/img/user-story/bitcoin-project.png)</br>
-**Figure 1: First iteration of our architecture.
+**Figure 1: First iteration of our architecture.**
 
 > NOTE:
 > 1. Whiteboard architecture is an approach were we focus on the essence of the problem and what we intend to build to solve the problem. 
@@ -129,8 +129,6 @@ The Kanban based approach is summarised in Figure 2.
 
 The kanban based approach startes when a user story is refined from `icebox` and enters the `product backlog`. Planners and developers pick the top level item and start work. `User stories` are typically refined to the smallest unit of complexity.
 
-The Kanban approach follows more closely to the lean startup philosophy and it allows you to pivot project quickly, for example, pull stories back from `product backlog` to `icebox`.
-
 An alternative to the Kanban approach is the Scrum approach and is summarised in Figure 3.
 
 ![scrum](../assets/img/user-story/sprint-backlog.png)<br>
@@ -140,6 +138,45 @@ A scrum based approach may not have an `icebox` but there is a notion of one. A 
 
 A `sprint` is a form of time boxed backlog. Planners and developers work on refining user stories in the `product backlog` via a `planning chore` known as `sprint planning`. This approach differs from the Kanban based which considers all items in the `product backlog` as ready for development any planning is typically done continously from the `icebox`. There is no fix time set aside for planning.
 
-Scrum is focused on processes and it involves lots of planning.
+Which approach should you use is very much dependent on you. It is beyond the scope of current discussion to offer value judgement on the approaches.
 
-Which approach should you use is very much dependent on you.
+## Working example
+
+We'll use a tool call Pivotal Tracker to illustrates the use case described earlier. Note: this tool is designed to help user manage project using the Kanban approach.
+
+Let's imagine we are at the very start of project. The first item we add to the project backlog is a `planning chore` we titled "project inception" (see Figure 4).
+
+![project-inception](../assets/img/user-story/project-inception.png)</br>
+**Figure 4: Project inception**
+
+From the outcome of the project, we derive several user stories for our `icebox` (see Figure 5).
+
+![initial user stories](../assets/img/user-story/initial-user-stories.png)</br>
+**Figure 5: Stories for the icebox**
+
+We don't need write user stories for `icebox` in typical user story format "As ...". We just need to include sufficient details we derived from project inception. For example, Figure 6 include a detail that where `Bob` is familiar with cryptographic wallets.
+
+![bob-sign-up](../assets/img/user-story/bob-sign-up.png)</br>
+**Figure 6: Bob signs up with his own wallet**
+
+Following from refinement of user stories in the `icebox` we identify the story name "Alice sign up as a subscriber" as a candidate for conversation to an `epic` see Figure 7.
+
+![alice signs up as a subscriber](../assets/img/user-story/alice-sign-up-as-a-subscriber.png)</br>
+**Figure 7: Alice signs up as a subscriber**
+
+The Epic is broken down into a series of detailed user stories and chores. In this case, we have identified one story where `Alice` signs up via website and another signs up via mobile app. See Figure 8.
+
+![break down epic](../assets/img/user-story/breakdown-alice-epic.png)</br>
+**Figure 8: Break down Alice signs up as a subscriber**
+
+The user story detailing the feature of `Alice` subscribing via the website is illustrated in Figure 9.
+
+![alice detailed story](../assets/img/user-story/detailed-user-story.png)</br>
+**Figure 9: Alice subscribing via website**
+
+Having captured sufficient details of user story related to `Alice` subscribing via website, the story is moved to the `product backlog` and thus ready for implementation (see Figure 10). The dependent chores are also moved to the backlog.
+
+![user story in backlog](../assets/img/user-story/userstory-in-backlog.png)</br>
+**Figure 10: Alice subsrcibing via website**
+
+The cycle continues as more and more user stories are added to the `icebox`, which are refined and converted into `epics` or user stories with minimal complexity adding to the `product backlog`.
